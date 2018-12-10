@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIScrollView
+public extension UIScrollView
 {
     func pp_maximumContentOffset() -> CGPoint
     {

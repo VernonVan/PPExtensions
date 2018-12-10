@@ -13,10 +13,12 @@ Pod::Spec.new do |s|
   s.summary      = "Useful extensions for iOS, written by Swift"
   s.homepage     = "https://github.com/VernonVan/PPExtensions"
   s.license      = "MIT"
+  s.platform     = :ios, "9.0"
   s.author       = { "Vernon" => "https://www.jianshu.com/u/0da7f56c0a41" }
   s.source       = { :git => "https://github.com/VernonVan/PPExtensions.git", :tag => "#{s.version}" }
 
-  s.source_files = "PPExtension/Source/*.{swift}"
+  s.source_files = "PPExtensions/Source/*.{swift}"
   s.frameworks   = "UIKit"
+  s.swift_version = "4.2"
 
 end

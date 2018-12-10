@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UserDefaults
+public extension UserDefaults
 {
     func pp_contains(key: String) -> Bool
     {

@@ -10,7 +10,7 @@ import UIKit
 
 private let imageAppearDuration: CFTimeInterval = 0.3
 
-extension UIImageView
+public extension UIImageView
 {
     private static var pp_sharedAnimationQueue: OperationQueue {
         let sharedAnimationQueue = OperationQueue()

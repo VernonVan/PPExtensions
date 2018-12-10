@@ -10,7 +10,7 @@ import UIKit
 
 private var pTouchAreaEdgeInsets: UIEdgeInsets = .zero
 
-extension UIButton
+public extension UIButton
 {
     func pp_setSpacingBetweenTextAndImage(spacing: CGFloat)
     {

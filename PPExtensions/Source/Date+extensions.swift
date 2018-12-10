@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Date
+public extension Date
 {
     func pp_daysBetweenDate(date: Date) -> Int
     {

@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIViewController
+public extension UIViewController
 {
     func pp_statusBarMargin() -> CGFloat
     {

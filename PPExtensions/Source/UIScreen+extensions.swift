@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum PPScreenPhysicalSize: Int
+public enum PPScreenPhysicalSize: Int
 {
     case unknown = -1
     case inch_3_5 = 0       // iPhone 4, 或者是在 iPad 上运行 iPhone App
@@ -20,7 +20,7 @@ enum PPScreenPhysicalSize: Int
     case inch_6_5 = 6       // iPhone Xs Max
 }
 
-extension UIScreen
+public extension UIScreen
 {
     static var pp_onePixelToPoint: CGFloat = {
         return 1.0 / UIScreen.main.scale

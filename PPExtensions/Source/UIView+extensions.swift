@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView
+public extension UIView
 {
     var pp_safeAreaInsets: UIEdgeInsets {
         get {
